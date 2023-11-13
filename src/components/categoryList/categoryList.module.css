@@ -20,9 +20,10 @@
   border-radius: 10px;
   gap: 10px;
   text-transform: capitalize;
+  background: lightseagreen;
 }
 
-.category.style{
+.category.React{
   background-color: #7fb88133;
 }
 
