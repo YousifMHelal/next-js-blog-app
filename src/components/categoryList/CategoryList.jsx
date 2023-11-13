@@ -12,8 +12,8 @@ const CategoryList = () => {
           href="/blog?/cat=style"
           className={`${styles.category} ${styles.style}`}>
           <Image
-            src="./style.png"
-            alt="cat"
+            src="/p1.jpeg"
+            alt="style"
             width={32}
             height={32}
             className={styles.img}
@@ -24,8 +24,8 @@ const CategoryList = () => {
           href="/blog?/cat=style"
           className={`${styles.category} ${styles.style}`}>
           <Image
-            src="./style.png"
-            alt="cat"
+            src="/p1.jpeg"
+            alt="style"
             width={32}
             height={32}
             className={styles.img}
@@ -36,8 +36,8 @@ const CategoryList = () => {
           href="/blog?/cat=style"
           className={`${styles.category} ${styles.style}`}>
           <Image
-            src="./style.png"
-            alt="cat"
+            src="/p1.jpeg"
+            alt="style"
             width={32}
             height={32}
             className={styles.img}
@@ -48,8 +48,8 @@ const CategoryList = () => {
           href="/blog?/cat=style"
           className={`${styles.category} ${styles.style}`}>
           <Image
-            src="./style.png"
-            alt="cat"
+            src="/p1.jpeg"
+            alt="style"
             width={32}
             height={32}
             className={styles.img}
@@ -60,8 +60,20 @@ const CategoryList = () => {
           href="/blog?/cat=style"
           className={`${styles.category} ${styles.style}`}>
           <Image
-            src="./style.png"
-            alt="cat"
+            src="/p1.jpeg"
+            alt="style"
+            width={32}
+            height={32}
+            className={styles.img}
+          />
+          style
+        </Link>
+        <Link
+          href="/blog?/cat=style"
+          className={`${styles.category} ${styles.style}`}>
+          <Image
+            src="/p1.jpeg"
+            alt="style"
             width={32}
             height={32}
             className={styles.img}

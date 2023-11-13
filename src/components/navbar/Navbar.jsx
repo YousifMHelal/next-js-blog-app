@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className={styles.logo}>Dev</div>
       <div className={styles.links}>
         <ThemToggle />
-        <Link href="/" className={styles.link} >Homepage</Link>
+        <Link href="/" className={styles.link} >Home</Link>
         <Link href="/" className={styles.link} >Content</Link>
         <Link href="/" className={styles.link} >About</Link>
         <AuthLinks />

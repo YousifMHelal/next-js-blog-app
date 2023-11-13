@@ -1,10 +1,13 @@
-import React from 'react'
-import styles from './pagination.module.css'
+import React from "react";
+import styles from "./pagination.module.css";
 
 const Pagination = () => {
   return (
-    <div className={styles.contaier}>Pagination</div>
-  )
-}
+    <div className={styles.container}>
+      <button className={styles.btn}>{`<<`}</button>
+      <button className={styles.btn}>{`>>`}</button>
+    </div>
+  );
+};
 
-export default Pagination
+export default Pagination;

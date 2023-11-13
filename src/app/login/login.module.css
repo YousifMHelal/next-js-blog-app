@@ -1,0 +1,50 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.wrapper{
+  background: var(--softBg);
+  padding: 80px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border-radius: 10px;
+}
+
+.socialBtn{
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+}
+
+.socialBtn:first-child{
+  background: #ff5555;
+}
+
+.socialBtn:nth-child(2) {
+  background: #111;
+}
+.socialBtn:nth-child(3) {
+  background: #087bea;
+}
+
+@media screen and (max-width: 640px) {
+.wrapper{
+  padding: 50px 70px;
+}
+
+.socialBtn{
+  font-weight: 400;
+  font-size: 14px;
+}
+}
